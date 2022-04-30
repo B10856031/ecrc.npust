@@ -1,0 +1,35 @@
+.productBlock img {
+    /*height: 40vh;*/
+    /*min-width: 17.1vw;  外框會有問題*/
+}
+
+.productBlock {
+    cursor: pointer;
+}
+
+.productBlock:hover {
+    background-color: rgba(250, 227, 192, 0.555);
+}
+
+.imgbox {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #fdebcd!important;
+}
+
+.registerbtn {
+    background: linear-gradient(to bottom, #14c6d6, #119fac 60%, #0D757E 99%);
+    color: white;
+    font-size: 1.6rem;
+    width: 10rem;
+    height: 4rem;
+}
+
+.btnmargin {
+    text-align: center;
+}

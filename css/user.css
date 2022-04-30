@@ -1,0 +1,53 @@
+.bc {
+    background-color: blanchedalmond;
+}
+
+.btncolor {
+    width: 80px;
+    height: 10%;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #fff;
+    background-color: #1d6a96;
+    border: 0.1px solid #85B8CB;
+    transition: all .3s linear;
+    border-radius: 10%;
+    box-shadow: #1d6a6969 0px 5px 10px 0px;
+    background: linear-gradient(#2da3e7 0%, #2486be 50%, #164f70 100%);
+    border-radius: 10px;
+}
+
+.edit_user_form {
+    text-align: center;
+}
+
+.form-control {
+    width: 30%;
+    display: flex;
+    margin: auto;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #fdebcd!important;
+}
+
+.cancelbtncolor {
+    margin-right: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 80px;
+    height: 10%;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #fff;
+    transition: all .3s linear;
+    border-radius: 10%;
+    box-shadow: #de5c6969 0px 5px 10px 0px;
+    background: linear-gradient(to bottom, #eb7887 0%, #ca5161 50%, #ff1200 100%);
+}

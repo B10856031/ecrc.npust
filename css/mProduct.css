@@ -1,0 +1,123 @@
+body {
+    background-color: #fdebcd!important;
+}
+
+.newtable {
+    width: 70%;
+    /* new 原500px */
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.ntable {
+    margin: auto;
+    width: 74vw;
+    /* text-align: left; */
+    /* vertical-align: middle; */
+}
+
+.ntable td {
+    padding: 5px 10px 5px 10px;
+}
+
+.ntable th {
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+}
+
+.table-date {
+    /* 公告日期 */
+    width: 180px;
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.table-title {
+    /* 公告標題 */
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    width: 618px;
+    padding: 10px;
+}
+
+.newdate {
+    /* 日期 */
+    border-bottom: 2px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+.table-content {
+    /* 標題內容 */
+    border-left: 2px solid white;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(1) {
+    /* 表格中的第一對 tr */
+    background-color: #974e40!important;
+    color: #ffffff
+}
+
+tr {
+    /* 表格中的偶數對 tr */
+    background-color: #eebb7685;
+    border-bottom: 0.75px solid white;
+}
+
+.section-heading {
+    font-size: 2.25rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.margintable {
+    margin-bottom: 5%;
+}
+
+.nInputText {
+    min-height: 20vh;
+}
+
+.adding_btn {
+    font-size: 20px;
+}
+
+.completebox {
+    width: 100%;
+    text-align: left;
+}
+
+.complete {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #5c85de;
+    border: none;
+    border-radius: 15%;
+    position: relative;
+    background: linear-gradient(to bottom, #2fab07ab, #32af4d 60%, #099d5ed1 99%)!important;
+}
+
+.formbox {
+    display: flex;
+    width: 100%;
+}
+
+.formhalf {
+    width: 50%;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.editcolor{
+    color: #d44457;
+}

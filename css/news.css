@@ -1,0 +1,109 @@
+body {
+    background-color: #fdebcd!important;
+}
+
+.newtable {
+    width: 70%;
+    /* new 原500px */
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.ntable {
+    /*margin: auto;*/
+    /* text-align: left; */
+    /* vertical-align: middle; */
+}
+
+.ntable td {
+    padding: 5px 50px 5px 50px;
+}
+
+.ntable th {
+    padding: 10px 50px 10px 50px;
+    font-size: large;
+}
+
+.table-date {
+    /* 公告日期 */
+    width: 180px;
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.table-title {
+    /* 公告標題 */
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    width: 618px;
+    padding: 10px;
+}
+
+.newdate {
+    /* 日期 */
+    border-bottom: 2px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+.table-content {
+    /* 標題內容 */
+    border-left: 2px solid white;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(1) {
+    /* 表格中的第一對 tr */
+    background-color: #0D757E!important;
+    color: #ffffff
+}
+
+tr {
+    /* 表格中的偶數對 tr */
+    background-color: #fedaa150;
+    border-bottom: 0.75px solid white;
+}
+
+.section-heading {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    position: relative;
+}
+
+.margintable {
+    margin-bottom: 5%;
+}
+
+.nInputText {
+    min-height: 50vh;
+}
+
+.panel.panel-primary:hover {
+    cursor: pointer;
+}
+
+.newsBG {
+    background-image: url("../files/images/b.jpg");
+    background-position: bottom center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 20em 0em 1em 0em;
+    position: relative;
+}
+
+.BGbox {
+    background-color: #0000006B;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
